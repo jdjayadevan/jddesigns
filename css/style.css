@@ -122,10 +122,12 @@ display: none;
      visibility: hidden;
   }
   #mobi1{
+    display: block;
      visibility: visible;
   }
   #heading{
       visibility: hidden;
+      display: none;
   }
       #heading1{
       visibility: visible;
@@ -152,9 +154,11 @@ display: block;
   }
     #heading{
       visibility: visible;
+      display: block;
   }
       #heading1{
       visibility: hidden;
+      display: none;
   }
 
 }
@@ -229,23 +233,17 @@ display: block;
     transform: translateY(-0.5rem);
 }
 
-#myTabContent h1 {
-    font-size:25px;
-      justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-#myTabContent h1::before,
-#myTabContent h1::after {
-    display: inline-block;
-    content: "";
-    border-top: .3rem solid black;
-    width: 25px;
-    margin: 0 1rem;
-    transform: translateY(-0.5rem);
-}
 
-/*h1 {
+#myTabContent h1 {
+font-size: 20px;
+justify-content: center;
+align-items: center;
+text-align: center;
+background-color: black;
+color: #fff;
+padding: 10px;
+}
+/*h2 {
       justify-content: center;
     align-items: center;
     text-align: center;
