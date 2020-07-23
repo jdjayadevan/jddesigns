@@ -1,5 +1,11 @@
 #phototoart {
-    left: -7pc;
+    left: -13pc;
+    min-width: 60rem;
+    padding-left: 23px;
+    padding-right: 50px;
+}
+#phototoart1 {
+    left: -13pc;
     min-width: 60rem;
     padding-left: 23px;
     padding-right: 50px;
@@ -67,7 +73,7 @@ font-weight: 500;
 }
 @media screen and (max-width: 992px) {
 #phototoart {
-    left: -7pc;
+    left: -13pc;
     min-width: 100%;
     padding-left: 23px;
     padding-right: 50px;
@@ -75,7 +81,14 @@ font-weight: 500;
 }
 @media screen and (max-width: 600px) {
 #phototoart {
-    left: -7pc;
+    left: -13pc;
+    min-width: 100%;
+    padding-left: 23px;
+    padding-right: 50px;
+}
+
+#phototoart1 {
+    left: -13pc;
     min-width: 100%;
     padding-left: 23px;
     padding-right: 50px;
@@ -94,4 +107,47 @@ font-size:15px;
 }
 .left-dropdown{
   left:70px;
+}
+
+@media only screen and (max-width: 599px) {
+   #mob {
+display: none;
+     visibility: hidden;
+  }
+  #mob1{
+     visibility: visible;
+  }
+     #mobi {
+display: none;
+     visibility: hidden;
+  }
+  #mobi1{
+     visibility: visible;
+  }
+}
+@media only screen and (min-width: 600px) {
+  #mob {
+display: block;
+visibility: visible;
+    
+  }
+  #mob1{
+    display: none;
+       visibility: hidden;
+  }
+  #mobi{
+display: block;
+  visibility: visible;
+    
+  }
+  #mobi1{
+    display: none;
+       visibility: hidden;
+  }
+}
+
+
+
+.dropdown-menu {
+    max-width: 100%;
 }
