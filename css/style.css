@@ -124,6 +124,12 @@ display: none;
   #mobi1{
      visibility: visible;
   }
+  #heading{
+      visibility: hidden;
+  }
+      #heading1{
+      visibility: visible;
+  }
 }
 @media only screen and (min-width: 600px) {
   #mob {
@@ -144,6 +150,13 @@ display: block;
     display: none;
        visibility: hidden;
   }
+    #heading{
+      visibility: visible;
+  }
+      #heading1{
+      visibility: hidden;
+  }
+
 }
 
 
@@ -200,14 +213,14 @@ display: block;
 
 
 
-h2 {
-    font-size: rem;
+#myTabContent h2 {
+    /*font-size:25px;*/
       justify-content: center;
     align-items: center;
     text-align: center;
 }
-h2::before,
-h2::after {
+#myTabContent h2::before,
+#myTabContent h2::after {
     display: inline-block;
     content: "";
     border-top: .3rem solid black;
@@ -216,9 +229,23 @@ h2::after {
     transform: translateY(-0.5rem);
 }
 
+#myTabContent h1 {
+    font-size:25px;
+      justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#myTabContent h1::before,
+#myTabContent h1::after {
+    display: inline-block;
+    content: "";
+    border-top: .3rem solid black;
+    width: 25px;
+    margin: 0 1rem;
+    transform: translateY(-0.5rem);
+}
 
-
-/*h2 {
+/*h1 {
       justify-content: center;
     align-items: center;
     text-align: center;
