@@ -102,7 +102,12 @@ font-weight: 500;
 }
 .name{
 text-align: center;
-font-size: 35px;
+font-size: 45px;
+}
+.name-sub{
+text-align: center;
+font-size: 17px;
+color: #793200
 }
 .name-bot{
 text-align: center;
@@ -244,7 +249,7 @@ display: block;
 #myTabContent h2::after {
     display: inline-block;
     content: "";
-    border-top: .3rem solid #1B467D;
+    border-top: .3rem solid #793200;
     width: 4rem;
     margin: 0 1rem;
     transform: translateY(-0.5rem);
@@ -283,7 +288,7 @@ h2::after {
     color: rgb(255, 255, 255)  !important;
 }
 .bg-primary1 {
-    background-color: #1B467D !important;
+    background-color: #793200 !important;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -293,26 +298,24 @@ h2::after {
 
 
 .dropdown-menu {
-  color: #1B467D !important;
-background-color: #FFD24C !important;
+  color: #793200 !important;
+background-color: #ffffff !important;
 
 }
 
 .dropdown-item:focus, .dropdown-item:hover {
-    color: #ffffff !important;
-    text-decoration: none;
-    background-color: #1B467D !important;
+  color: #ffd24c !important;
+text-decoration: none;
+background-color: #793200 !important;
 }
 .english{
-color: #FFD24C
+ color: #FFD24C;
 }
-.tamil{
-  color: #1B467D
-}
+
 .whatsapp{
   color:  #25d366
 }
 .whatsappchat{
-color: #1b467d;
+color: #793200;
   
 }
