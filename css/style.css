@@ -122,6 +122,12 @@ font-size:10px;
 display: none;
      visibility: hidden;
   }
+  #web3{
+    display: none;
+  }
+  #mobwhats{
+    display: block;
+  }
   #mob1{
      visibility: visible;
   }
@@ -130,14 +136,6 @@ display: none;
      visibility: hidden;
   }
   #mobi1{
-    display: block;
-     visibility: visible;
-  }
-       #web {
-display: none;
-     visibility: hidden;
-  }
-  #mob{
     display: block;
      visibility: visible;
   }
@@ -150,6 +148,13 @@ display: none;
   }
 }
 @media only screen and (min-width: 600px) {
+  #mob3{
+    display: none;
+  }
+  #mobwhats{
+    display: none;
+  }
+
   #mob {
 display: block;
 visibility: visible;
@@ -159,6 +164,7 @@ visibility: visible;
     display: none;
        visibility: hidden;
   }
+
   #mobi{
 display: block;
   visibility: visible;
@@ -169,18 +175,7 @@ display: block;
   }
   #mobi1{
     display: none;
-
        visibility: hidden;
-  }
-         #web {
-
-
-     visibility: visible;
-  }
-  #mob{
-display: none;
-
-     visibility: hidden;
   }
     #heading{
       visibility: visible;
@@ -541,15 +536,7 @@ section .section-title{
 #what-we-do .card .block-3:before{
     content: "\f00c";
 }
-#what-we-do .card .block-4:before{
-    content: "\f209";
-}
-#what-we-do .card .block-5:before{
-    content: "\f0a1";
-}
-#what-we-do .card .block-6:before{
-    content: "\f218";
-}
+
 #what-we-do .card:hover .card-block:before{
   -webkit-transform: rotate(360deg);
   transform: rotate(360deg);  
@@ -561,38 +548,7 @@ section .section-title{
   margin-top: 3rem;
   padding: 2rem;
 }
-
-
-
-
 .whatsappicon{
-  font-size: 70px !important;
-color: #00ff5f;
-
-}
-#whatsiconmob .fa-whatsapp  {
-  color:#fff;
-  background:
-  linear-gradient(#25d366,#25d366)10px 84%/10px 15px no-repeat,
-  radial-gradient(#25d366 60%,transparent 0);
-
-}
-aside {
-  position: absolute;
-  left: 0;
-  top: 0;
-  /* set these so Chrome doesn't return 'auto' from getComputedStyle */
- 
- 
-  border-radius: 4px;
-  padding: 30px;
-}
-
-.second {
-  left: 100px;
-  top: 100px;
-}
-
-#drag {
-  min-height: 100vh;
+  color: #25d366;
+font-size: 26px;
 }
