@@ -397,6 +397,23 @@ section.module.parallax {
   background-size: cover;
   padding-top: 8rem;
 }
+section.module.parallax1 {
+  height: auto;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top: 8rem;
+}
+section.module.parallax1 h1 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 48px;
+  line-height: 600px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
 section.module.parallax h1 {
   color: rgba(255, 255, 255, 0.8);
   font-size: 48px;
@@ -409,7 +426,35 @@ section.module.parallax h1 {
 section.module.parallax-1 {
   background-image: url("http://wowslider.com/sliders/demo-10/data/images/dock.jpg");
 }
+
 #parallax h3{
   color: #ffffff;
 }
 
+
+#parallax1 h3{
+  color: #333333;
+}
+
+#parallax1:hover{
+box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2);
+margin: 15px;
+
+}
+
+#parallax2{
+box-shadow: 1px 2px 4px 5px rgba(0,0,0,0.2);
+margin: 15px;
+
+}
+#parallax2 section.module.parallax{
+  height: 600px!important
+}
+.spec-proc{
+  margin-top: 5rem;
+  padding: 2rem;
+}
+#spec-proc li{
+  text-align: justify;
+
+}
