@@ -219,6 +219,22 @@ display: block;
 
 @media only screen and (max-width:990px){.product-grid7{margin-bottom:30px}
 }
+
+
+.product-grid-show{font-family:'Roboto Slab',serif;position:relative;z-index:1}
+.product-grid-show .product-image7{border:1px solid rgba(0,0,0,.1);overflow:hidden;perspective:1500px;position:relative;transition:all .3s ease 0s}
+.product-grid-show .product-image7 a{display:block}
+.product-grid-show .product-image7 img{width:100%;height:auto}
+.product-grid-show .pic-1{opacity:1;transition:all .5s ease-out 0s}
+
+.product-grid-show .product-new-label{color:#fff;background-color:#333;padding:5px 10px;border-radius:5px;display:block;position:absolute;top:10px;left:10px}
+.product-grid-show .product-content{text-align:center;padding:20px 0 0}
+.product-grid-show .title{font-size:15px;font-weight:600;text-transform:capitalize;margin:0 0 10px;transition:all .3s ease 0s}
+.product-grid-show .title a{color:#333}
+.product-grid-show .title a:hover{color:#78e08f}
+
+@media only screen and (max-width:990px){.product-grid7{margin-bottom:30px}
+}
 /********************* Shopping Demo-6 **********************/
 .product-grid6,.product-grid6 .product-image6{overflow:hidden}
 .product-grid6{font-family:'Open Sans',sans-serif;text-align:center;position:relative;transition:all .5s ease 0s}
@@ -319,3 +335,81 @@ background-color: #793200 !important;
 color: #793200;
   
 }
+.card1{
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+transition: 0.3s;
+width: 100%;
+height: auto;
+padding: 15px 15px 15px;
+margin-top: 12px;
+border: 1px solid gainsboro;
+border-radius: 10px;
+}
+.heading-slide{
+  color: #793200;
+}
+.btn-col-slide{
+  background-color:#FFD24C;
+  color: #793200
+}
+#myTabContent hr {
+  margin-top: 0.5rem !important;
+}
+#myTabContent a {
+  text-decoration: none;
+}
+
+
+/* ============================================================
+  PRIMARY STRUCTURE
+============================================================ */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+/* ============================================================
+  SECTIONS
+============================================================ */
+section.module:last-child {
+  margin-bottom: 0;
+}
+section.module h2 {
+  margin-bottom: 40px;
+  font-family: "Roboto Slab", serif;
+  font-size: 30px;
+}
+section.module p {
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-weight: 300;
+}
+section.module p:last-child {
+  margin-bottom: 0;
+}
+section.module.content {
+  padding: 40px 0;
+}
+section.module.parallax {
+  height: 400px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top: 8rem;
+}
+section.module.parallax h1 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 48px;
+  line-height: 600px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+section.module.parallax-1 {
+  background-image: url("http://wowslider.com/sliders/demo-10/data/images/dock.jpg");
+}
+#parallax h3{
+  color: #ffffff;
+}
+
