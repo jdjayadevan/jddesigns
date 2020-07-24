@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <div class="row">
+    <div class="row" id="web">
         <div class="col-md-4" id="logo"><img src="img/logo.png" width="250px" height="90px"></div>
         <div class="col-md-4">
           
@@ -33,6 +33,7 @@
         </div>
 
     </div>
+
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary1 ">
         <!-- <a class="navbar-brand" href="#">Brand</a> -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav">
@@ -53,19 +54,10 @@
                         <a class="dropdown-item" href="#">Invitation</a>
                     </div>
                 </li>
-                <!--    <li data-toggle="collapse" data-target=".navbar-collapse.show" href="#one" class="nav-item">
-                          <a class="nav-link" href="#">HANDMADE ART</a>
-                        </li> -->
                 <li data-toggle="collapse" data-target=".navbar-collapse.show" href="#one" id="mobi" class="dropdown">
                     <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">PHOTO TO ART</a>
                     <div class="dropdown-menu" id="phototoart">
-                        <!--dropdown menu header-->
-                        <!-- <div class="header">
-                                         <h4>Heading Of The Mega Menu</h4>
-                                    </div>
-                                    <br> -->
                         <div class="row">
-                            <!--dropdwown menu row1-->
                             <div class="col align">
                                 <img src="img/portfolio/image1.jpeg" width="100%">
                                 <span class="col-p">DIGITAL PAINTING</span>
@@ -231,7 +223,21 @@
         </div>
         <!-- navbar-collapse.// -->
     </nav>
+     <div class="row" id="mob">
+        <div class="col-md-4 text-center" id="logo"><img src="img/logo.png" width="250px" height="90px"></div>
+        <div class="col-md-4">
+          
+            <div>
+                <h4 class="name english">JD DESIGNS</h4>
+            </div>
+             <div>
+                <h6 class="name-sub">DESIGNING AND PRINITING</h6>
+            </div>
+            <div class="name-bot"><span class="col-md-4">HELP</span><span class="col-md-4">OFFERS</span><span class="col-md-4">NEW ARRIVALS</span></div>
+        </div>
+      
 
+    </div>
     <!--navigation bar ends-->
 
 
@@ -273,7 +279,7 @@
     <div class="card1">
       <div class="row">
           <div class="col-md-12">
-              <h3 class="text-left heading-slide">Photo to Art<button class="btn btn-col-slide text-right" style="float:right;"> <a style="color:white;" href="products.php?id=MjM=&amp;cat_id=MA==">View More</a></button></h3>
+              <h3 class="text-left heading-slide">Photo to Art<button class="btn btn-col-slide text-right" style="float:right;"> <a style="color:#793200;" href="products.php?id=MjM=&amp;cat_id=MA==">View More</a></button></h3>
           </div>
       </div>
       <hr/>
@@ -334,7 +340,7 @@
     <div class="card1">
       <div class="row">
           <div class="col-md-12">
-              <h3 class="text-left heading-slide">Political<button class="btn btn-col-slide text-right" style="float:right;"> <a style="color:white;" href="products.php?id=MjM=&amp;cat_id=MA==">View More</a></button></h3>
+              <h3 class="text-left heading-slide">Political<button class="btn btn-col-slide text-right" style="float:right;"> <a style="color:#793200;" href="products.php?id=MjM=&amp;cat_id=MA==">View More</a></button></h3>
           </div>
       </div>
       <hr/>
@@ -419,7 +425,7 @@
     <div class="card1">
       <div class="row">
           <div class="col-md-12">
-              <h3 class="text-left heading-slide">Our Service<button class="btn btn-col-slide text-right" style="float:right;"> <a style="color:white;" href="products.php?id=MjM=&amp;cat_id=MA==">View More</a></button></h3>
+              <h3 class="text-left heading-slide">Our Service<button class="btn btn-col-slide text-right" style="float:right;"> <a style="color:#793200;" href="products.php?id=MjM=&amp;cat_id=MA==">View More</a></button></h3>
           </div>
       </div>
       <hr/>
@@ -476,16 +482,25 @@
       </div>
     </div>
     <!-- Service ends -->
+<!-- <div class="icon-bar1 dragme" draggable="true" id="drag" data-item="0">
+      <a
+        href="https://api.whatsapp.com/send?phone=918838694199"
+        class="whatsapp"
+        ><img
+        src="https://pluspng.com/img-png/whatsapp-png-whatsapp-logo-png-1000.png"/
+        width="80px" height="80px"></a
+      >
+    </div>
 
+ -->
 
+<!-- 
 
+<aside draggable="true" class="dragme whatsappicon" data-item="0"><a id='golink' href='gosomewhere.html'><i class="fa fa-whatsapp" aria-hidden="true"></i></aside>
 
+ -->
 
-
-
-
-
-
+<div ondblclick= "openLink('https://api.whatsapp.com/send?phone=918838694199')"><aside draggable="true" class="dragme whatsappicon" data-item="0"><i class="fa fa-whatsapp" aria-hidden="true"></i></aside></div>
 
 
 
@@ -496,14 +511,55 @@
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script type="text/javascript">
-        $('.navbar-nav>li>a').on('click', function(){
-            $('.navbar-collapse').collapse('hide');
-        });
-        });
+       
+
     </script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script type="text/javascript">function drag_start(event) {
+
+
+       $('.navbar-nav>li>a').on('click', function(){
+            $('.navbar-collapse').collapse('hide');
+        });
+
+  var style = window.getComputedStyle(event.target, null);
+  event.dataTransfer.setData("text/plain", (parseInt(style.getPropertyValue("left"), 10) - event.clientX) + ',' + (parseInt(style.getPropertyValue("top"), 10) - event.clientY) + ',' + event.target.getAttribute('data-item'));
+}
+
+function openLink(link)
+{
+   location.href = link;
+}   
+
+function drag_over(event) {
+  event.preventDefault();
+  return false;
+}
+
+function drop(event) {
+  var offset = event.dataTransfer.getData("text/plain").split(',');
+  var dm = document.getElementsByClassName('dragme');
+  dm[parseInt(offset[2])].style.left = (event.clientX + parseInt(offset[0], 10)) + 'px';
+  dm[parseInt(offset[2])].style.top = (event.clientY + parseInt(offset[1], 10)) + 'px';
+  event.preventDefault();
+  return false;
+}
+
+var dm = document.getElementsByClassName('dragme');
+for (var i = 0; i < dm.length; i++) {
+  dm[i].addEventListener('dragstart', drag_start, false);
+  document.body.addEventListener('dragover', drag_over, false);
+  document.body.addEventListener('drop', drop, false);
+}
+
+
+
+
+
+
+</script>
 </body>
 
 </html>

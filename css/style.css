@@ -133,6 +133,14 @@ display: none;
     display: block;
      visibility: visible;
   }
+       #web {
+display: none;
+     visibility: hidden;
+  }
+  #mob{
+    display: block;
+     visibility: visible;
+  }
   #heading{
       visibility: hidden;
       display: none;
@@ -161,7 +169,18 @@ display: block;
   }
   #mobi1{
     display: none;
+
        visibility: hidden;
+  }
+         #web {
+
+
+     visibility: visible;
+  }
+  #mob{
+display: none;
+
+     visibility: hidden;
   }
     #heading{
       visibility: visible;
@@ -457,4 +476,123 @@ margin: 15px;
 #spec-proc li{
   text-align: justify;
 
+}
+
+
+
+section .section-title{
+  text-align:center;
+  color:#FFD24C;
+  margin-bottom:50px;
+  text-transform:uppercase;
+}
+#what-we-do{
+  background:#ffffff;
+}
+#what-we-do .card{
+  padding: 1rem!important;
+  border: none;
+  margin-bottom:1rem;
+  -webkit-transition: .5s all ease;
+  -moz-transition: .5s all ease;
+  transition: .5s all ease;
+}
+#what-we-do .card:hover{
+  -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+  -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+  box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+}
+#what-we-do .card .card-block{
+  padding-left: 50px;
+    position: relative;
+}
+.card-title{
+  color: #793200;
+}
+#what-we-do .card .card-block a{
+  color: #FFD24C !important;
+  font-weight:700;
+  text-decoration:none;
+}
+#what-we-do .card .card-block a i{
+  display:none;
+  
+}
+#what-we-do .card:hover .card-block a i{
+  display:inline-block;
+  font-weight:700;
+  
+}
+#what-we-do .card .card-block:before{
+  font-family: FontAwesome;
+    position: absolute;
+    font-size: 39px;
+    color: #FFD24C;
+    left: 0;
+  -webkit-transition: -webkit-transform .2s ease-in-out;
+    transition:transform .2s ease-in-out;
+}
+#what-we-do .card .block-1:before{
+    content: "\f0e7";
+}
+#what-we-do .card .block-2:before{
+    content: "\f0eb";
+}
+#what-we-do .card .block-3:before{
+    content: "\f00c";
+}
+#what-we-do .card .block-4:before{
+    content: "\f209";
+}
+#what-we-do .card .block-5:before{
+    content: "\f0a1";
+}
+#what-we-do .card .block-6:before{
+    content: "\f218";
+}
+#what-we-do .card:hover .card-block:before{
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);  
+  -webkit-transition: .5s all ease;
+  -moz-transition: .5s all ease;
+  transition: .5s all ease;
+}
+#what-we-do{
+  margin-top: 3rem;
+  padding: 2rem;
+}
+
+
+
+
+.whatsappicon{
+  font-size: 70px !important;
+color: #00ff5f;
+
+}
+#whatsiconmob .fa-whatsapp  {
+  color:#fff;
+  background:
+  linear-gradient(#25d366,#25d366)10px 84%/10px 15px no-repeat,
+  radial-gradient(#25d366 60%,transparent 0);
+
+}
+aside {
+  position: absolute;
+  left: 0;
+  top: 0;
+  /* set these so Chrome doesn't return 'auto' from getComputedStyle */
+ 
+ 
+  border-radius: 4px;
+  padding: 30px;
+}
+
+.second {
+  left: 100px;
+  top: 100px;
+}
+
+#drag {
+  min-height: 100vh;
 }
