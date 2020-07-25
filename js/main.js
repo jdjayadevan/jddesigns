@@ -1,11 +1,12 @@
 
   AOS.init();
+function drag_start(event) {
 
 
-// image slide start
-        $('.navbar-nav>li>a').on('click', function(){
+       $('.navbar-nav>li>a').on('click', function(){
             $('.navbar-collapse').collapse('hide');
         });
+
       // Gallery image hover
 $( ".img-wrapper" ).hover(
   function() {
