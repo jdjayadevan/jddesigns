@@ -189,7 +189,9 @@ display: block;
 }
 
 
-
+.row-correction{
+  margin: 0px !important
+}
 .dropdown-menu {
     max-width: 100%;
 }
