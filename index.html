@@ -9,7 +9,12 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="css/aos.css"
+    />
     <title>Hello, world!</title>
 </head>
 
@@ -410,12 +415,13 @@
 
 <!-- parallax starts -->
 
-<div id="parallax">
+<div id="parallax" >
   <section class="module parallax parallax-1 text-center align-middle">
-    <div class="container">
+    <div class="container" data-aos="fade-up"
+     data-aos-duration="2000">
 
           <h3> Lorem ipsum dolor sit amet, consectetur adipisicing elit Lorem ipsum dolor sit amet, consectetur adipisicing elit Lorem ipsum dolor sit amet, consectetur adipisicing elit...</h3>
-          <button class="btn btn-primary">click</button>
+          <button class="btn btn-primary">Chat Us</button>
     </div>
   </section>
 </div>
@@ -532,8 +538,10 @@
 
 
 
-
 </script>
+  <script type="text/javascript" src="js/aos.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+
 </body>
 
 </html>
