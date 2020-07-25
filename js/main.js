@@ -1,5 +1,5 @@
 
-  AOS.init();
+
 function drag_start(event) {
 
 
