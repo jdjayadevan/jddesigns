@@ -10,6 +10,9 @@
     padding-left: 23px;
     padding-right: 50px;
 }
+a:hover{
+  text-decoration: none;
+}
 #phototogifts {
     left: -60pc;
     min-width: 60rem;
@@ -267,7 +270,14 @@ display: block;
 }
 
 
-
+#myTabContent1 h3 {
+  /*font-size:25px;*/
+    justify-content: center;
+  align-items: center;
+  padding: 40px;
+color: #FFD24C;
+  text-align: center;
+}
 
 #myTabContent h2 {
     /*font-size:25px;*/
@@ -830,4 +840,10 @@ img.zoom {
   #exitButton {
     font-size: 3em;
   }
+}
+/* colleage */
+#colleage-portrait{
+  box-shadow: 1px 2px 4px 5px rgba(0,0,0,0.2);
+    margin: 15px;
+    padding: 30px;
 }
