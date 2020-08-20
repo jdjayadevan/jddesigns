@@ -141,7 +141,9 @@ font-size:10px;
 .left-dropdown{
   left:220px;
 }
-
+.left-dropdown1{
+  left:72px;
+}
 @media only screen and (max-width: 599px) {
    #mob {
 display: none;
