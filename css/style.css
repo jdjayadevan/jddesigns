@@ -553,6 +553,11 @@ padding-bottom: 0.5rem;
   font-size: 20px;
   background-color: #ffd24c;
 }
+.btn-primary1   {
+  color: #ffd24c !important;
+  background-color: #793200;
+  
+}
 
 section .section-title{
   text-align:center;
