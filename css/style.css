@@ -1180,7 +1180,21 @@ width: 100% !important;
     }
 
 
-
+    .iconPM {
+      /* background: url(https://raw.githubusercontent.com/stephenhutchings/typicons.font/493867748439a8e1ac3b92e275221f359577bd91/src/png-24px/mail.png) center no-repeat; */
+      /* background-size: 16px 16px; */
+      /* width: 16px;
+      height: 16px; */
+      /* border: none; */
+      /* display:inline-block; */
+      color: red;
+      animation: blink 1s ease-in infinite;
+    }
+    
+    @keyframes blink {
+      from, to { opacity: 1 }
+      50% { opacity: 0 }
+    }
 
 
 
@@ -1305,3 +1319,4 @@ width: 100% !important;
   }
 
 }
+
