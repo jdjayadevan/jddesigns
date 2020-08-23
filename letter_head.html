@@ -26,8 +26,8 @@
     background-color: #fff;
     z-index: 1032;
 "><div class="row row-correction" id="web3">
-        <div class="col-md-4" id="logo"><a href="index.html"><img src="img/logo.png" width="250px" height="90px"></a></div>
-        <div class="col-md-4">
+        <div class="col-md-4 hide" id="logo"><a href="index.html"><img src="img/logo.png" width="250px" height="90px"></a></div>
+        <div class="col-md-4 hide">
           
             <div class="name english">
                 <img src="img/namelogo.png" width="100%" height="74px" />
@@ -35,7 +35,7 @@
             </div>
             <div class="name-bot"><span class="col-md-4">HELP</span><span class="col-md-4 iconPM" ><a data-toggle="modal" data-target="#offers" style="cursor: pointer;">OFFERS</a></span><span class="col-md-4 iconPM"><a data-toggle="modal" data-target="#newarrival" style="cursor: pointer;">NEW ARRIVALS</a></span></div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 hide">
             <div class="mobile"><a href="https://api.whatsapp.com/send?phone=918778694974" target="_blank"><span class="whatsappicon"><i class="fa fa-whatsapp" aria-hidden="true"></i></span><span class="whatsapp"> +91 8778694974</span><br/> <span  class="whatsappchat">chat with us</span> </a>
             </div >
            
@@ -541,11 +541,12 @@ Chennai
         <div class="col-md-2">
           <h5>Links</h5>
           <ul class="nav-list">
-            <li><a href="#">About</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Blog</a></li>
+            
+            <li><a href="3dpopout.html">Projects</a></li>
+            <!-- <li><a href="#">Blog</a></li> -->
             <li><a href="contact.html">Contacts</a></li>
            <li><a href="https://wa.me/p/3695488963809623/918778694974" target="_blank">Pricing</a></li>
+           <li><a href="https://digitizeeme.com/">Digitizee Me</a></li>
           </ul>
         </div>
         <div class="col-md-3">
@@ -777,6 +778,19 @@ $exitButton.click(function() {
   $("#overlay").fadeOut("slow");
 });
 </script>
-</body>
+  <script>
+
+$(window).scroll(function() {
+
+if ($(this).scrollTop()>100)
+ {
+    $('.hide').hide();
+ }
+else
+ {
+  $('.hide').show();
+ }
+});
+  </script></body>
 
 </html>

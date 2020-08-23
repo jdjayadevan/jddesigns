@@ -305,5 +305,18 @@ $exitButton.click(function() {
   $("#overlay").fadeOut("slow");
 });
     </script>
-</body>
+  <script>
+
+$(window).scroll(function() {
+
+if ($(this).scrollTop()>100)
+ {
+    $('.hide').hide();
+ }
+else
+ {
+  $('.hide').show();
+ }
+});
+  </script></body>
 </html>

@@ -697,11 +697,12 @@ Chennai
         <div class="col-md-2">
           <h5>Links</h5>
           <ul class="nav-list">
-            <li><a href="#">About</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Blog</a></li>
+            
+            <li><a href="3dpopout.html">Projects</a></li>
+            <!-- <li><a href="#">Blog</a></li> -->
             <li><a href="contact.html">Contacts</a></li>
            <li><a href="https://wa.me/p/3695488963809623/918778694974" target="_blank">Pricing</a></li>
+           <li><a href="https://digitizeeme.com/">Digitizee Me</a></li>
           </ul>
         </div>
         <div class="col-md-3">
@@ -882,18 +883,21 @@ $('.owl-carousel').owlCarousel({
     $('.carousel').carousel({
     interval: 3000
      });
-
-     
-     $(window).scroll(function() {
-    if ($(window).scrollTop() > 100) {
-        $(".fade").fadeIn("slow");
-    }
-    else {
-        $(".fade").fadeOut("fast");
-    }
-});
   </script> 
-  
-</body>
+  <script>
+
+$(window).scroll(function() {
+
+if ($(this).scrollTop()>100)
+ {
+    $('.hide').hide();
+ }
+else
+ {
+  $('.hide').show();
+ }
+});
+  </script>
+ </body>
 
 </html>
