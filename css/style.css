@@ -122,10 +122,11 @@ font-weight: 500;
     padding-right: 50px;
 }
 }
-.mobile{
+.mobile {
   font-size: 18px;
-  padding-top: 2rem;
+  padding-top: 1rem;
   float: right;
+  text-align: center;
   padding-right: 34px;
 }
 .name{
