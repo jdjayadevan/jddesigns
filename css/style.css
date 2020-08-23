@@ -1,3 +1,6 @@
+body{
+  /* font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif !important; */
+}
 .row {
 
   margin-right: 0px; 
@@ -173,6 +176,9 @@ display: none;
       #heading1{
       visibility: visible;
   }
+  /* .logo{
+    margin-top: 80px;
+  } */
 }
 @media only screen and (min-width: 600px) {
   #mob3{
@@ -1167,7 +1173,7 @@ width: 100% !important;
 
     .xbootstrap {
       color: #000000;
-      font-family: "Bookman Old Style";
+      font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif !important;
       box-shadow: 0 0 10px rgba(0,0,0,.3);
       /* background-color: #2d2d2d; */
       letter-spacing: .1em;
@@ -1190,6 +1196,16 @@ width: 100% !important;
       color: red;
       animation: blink 1s ease-in infinite;
     }
+    .iconPM1 {
+      /* background: url(https://raw.githubusercontent.com/stephenhutchings/typicons.font/493867748439a8e1ac3b92e275221f359577bd91/src/png-24px/mail.png) center no-repeat; */
+      /* background-size: 16px 16px; */
+      /* width: 16px;
+      height: 16px; */
+      /* border: none; */
+      /* display:inline-block; */
+      /* color: red; */
+      animation: blink 1s ease-in infinite;
+    }
     
     @keyframes blink {
       from, to { opacity: 1 }
@@ -1202,7 +1218,7 @@ width: 100% !important;
     /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {    .xbootstrap {
   color: #000000;
-  font-family: "Bookman Old Style";
+font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif !important;
   box-shadow: 0 0 10px rgba(0,0,0,.3);
   /* background-color: #2d2d2d; */
   letter-spacing: .1em;
@@ -1213,13 +1229,18 @@ width: 100% !important;
   margin-top: 32px;
 
 }
-
+.padding-top {
+  padding-top: 0px !important;
+}
+.padding-top1{
+  padding-top: 0px !important;
+}
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {    .xbootstrap {
       color: #000000;
-      font-family: "Bookman Old Style";
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif !important;
       box-shadow: 0 0 10px rgba(0,0,0,.3);
       /* background-color: #2d2d2d; */
       letter-spacing: .1em;
@@ -1230,9 +1251,12 @@ width: 100% !important;
       margin-top: 32px;
 
     }
+    .padding-top {
+      padding-top: 181px;
+  }
     .xbootstrap1 {
       color: #000000;
-      font-family: "Bookman Old Style";
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif !important;
       box-shadow: 0 0 10px rgba(0,0,0,.3);
       /* background-color: #2d2d2d; */
       letter-spacing: .1em;
@@ -1248,7 +1272,7 @@ width: 100% !important;
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {    .xbootstrap {
       color: #000000;
-      font-family: "Bookman Old Style";
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif !important;
       box-shadow: 0 0 10px rgba(0,0,0,.3);
       /* background-color: #2d2d2d; */
       letter-spacing: .1em;
@@ -1259,13 +1283,16 @@ width: 100% !important;
       margin-top: 32px;
 
     }
+    .padding-top1{
+      padding-top: 170px !important;
+    }
 
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {    .xbootstrap {
       color: #000000;
-      font-family: "Bookman Old Style";
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif !important;
       box-shadow: 0 0 10px rgba(0,0,0,.3);
       /* background-color: #2d2d2d; */
       letter-spacing: .1em;
@@ -1278,7 +1305,7 @@ width: 100% !important;
     }
     .xbootstrap1 {
       color: #000000;
-      font-family: "Bookman Old Style";
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif !important;
       box-shadow: 0 0 10px rgba(0,0,0,.3);
       /* background-color: #2d2d2d; */
       letter-spacing: .1em;
@@ -1288,13 +1315,15 @@ width: 100% !important;
       /* text-shadow: -1px -1px 1px #111, 2px 2px 1px #363636; */
       margin-top: 32px;
   }
-
+  .padding-top1{
+    padding-top: 170px !important;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {    .xbootstrap {
       color: #000000;
-      font-family: "Bookman Old Style";
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif !important;
       box-shadow: 0 0 10px rgba(0,0,0,.3);
       /* background-color: #2d2d2d; */
       letter-spacing: .1em;
@@ -1305,9 +1334,12 @@ width: 100% !important;
       margin-top: 32px;
 
     }
+    .padding-top1{
+      padding-top: 170px !important;
+    }
     .xbootstrap1 {
       color: #000000;
-      font-family: "Bookman Old Style";
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif !important;
       box-shadow: 0 0 10px rgba(0,0,0,.3);
       /* background-color: #2d2d2d; */
       letter-spacing: .1em;
@@ -1319,4 +1351,9 @@ width: 100% !important;
   }
 
 }
-
+.padding-top{
+  padding-top: 181px;
+}
+.padding-top1{
+  padding-top: 350px;
+}
