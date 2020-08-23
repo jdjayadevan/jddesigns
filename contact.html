@@ -317,9 +317,11 @@
       
         <section class="get-in-touch">
    <h2 class="title">Get in touch</h2>
-   <form class="contact-form row">
+   <form class="contact-form row" id="contactForm"
+   action="js/contact_me.js"
+   method="post">
       <div class="form-field col-lg-6">
-         <input id="name" class="input-text js-input" type="text" required/>
+         <input id="name"  class="input-text js-input" type="text" required/>
          <label class="label" for="name">Name</label>
       </div>
       <div class="form-field col-lg-6 ">
@@ -339,7 +341,7 @@
          <label class="label" for="message">Message</label>
       </div>
       <div class="form-field col-lg-12">
-         <input class="submit-btn float-right" type="submit" value="Submit"/>
+         <input class="submit-btn float-right" type="submit" name="send" value="Submit"/>
       </div>
    </form>
 </section>
@@ -531,12 +533,12 @@ Chennai
         $('.navbar-nav>li>a').on('click', function(){
             $('.navbar-collapse').collapse('hide');
         });
-        });
     </script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  <script>
+    <script type="text/javascript" src="js/contact_me.js"></script>
+ <script>
 
 $(window).scroll(function() {
 

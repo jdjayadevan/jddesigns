@@ -1,29 +1,36 @@
 $(function() {
 
     $("input,textarea").jqBootstrapValidation({
+        
         preventSubmit: true,
         submitError: function($form, event, errors) {
             // additional error messages or events
         },
         submitSuccess: function($form, event) {
+            
             event.preventDefault(); // prevent default submit behaviour
             // get values from FORM
             var name = $("input#name").val();
+            alert(name)
             var email = $("input#email").val();
             var message = $("textarea#message").val();
-           
+            var phone = $("textarea#phone").val();
+            var company = $("textarea#company").val();
             var firstName = name; // For Success/Failure Message
+            alert(name)
             // Check for white space in name for Success/Fail message
             if (firstName.indexOf(' ') >= 0) {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "https://jddesign.000webhostapp.com/mail/contact_me.php",
+                url: "https://jddesigns003.000webhostapp.com/mail/contact_me.php",
                 type: "POST",
                 data: {
                     name: name,
                     email: email,
-                    message: message
+                    message: message,
+                    phone: phone,
+                    company: company,
                 },
 
                 cache: false,
