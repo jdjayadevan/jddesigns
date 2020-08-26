@@ -1237,6 +1237,11 @@ font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleG
 .padding-top1{
   padding-top: 0px !important;
 }
+.scroll-height {
+  overflow-y: auto;
+  height: 400px;
+ 
+}
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
