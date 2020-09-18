@@ -11,7 +11,7 @@ $(function() {
             event.preventDefault(); // prevent default submit behaviour
             // get values from FORM
             var name = $("input#name").val();
-            alert(name)
+          
             var email = $("input#email").val();
             var message = $("input#message").val();
             var phone = $("input#phone").val();
