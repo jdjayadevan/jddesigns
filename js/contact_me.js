@@ -35,12 +35,12 @@ $('#send').click(function() {
                 .append('</div>');
 
             //clear all fields
-            $('#contactForm').trigger("reset");
+           alert("sucess")
         },
         error: function() {
             // Fail message
           
-            $('#contactForm').trigger("reset");
+            alert("fail")
         },
     })
     alert(data)
