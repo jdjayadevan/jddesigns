@@ -6,7 +6,7 @@ $('#send').click(function() {
     var phone = $("input#phone").val();
     var company = $("textarea#company").val();
     var firstName = name; // For Success/Failure Message
-    alert(name)
+    
     // Check for white space in name for Success/Fail message
     if (firstName.indexOf(' ') >= 0) {
         firstName = name.split(' ').slice(0, -1).join(' ');
@@ -21,7 +21,7 @@ $('#send').click(function() {
             phone: phone,
             company: company,
         },
-
+       
         cache: false,
 
         success: function() {
@@ -43,6 +43,8 @@ $('#send').click(function() {
             $('#contactForm').trigger("reset");
         },
     })
+    alert(data)
+
 });
 /*When clicking on Full hide fail/success boxes */
 $('#name').focus(function() {
