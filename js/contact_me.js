@@ -15,7 +15,7 @@ $(function() {
             var email = $("input#email").val();
             var message = $("input#message").val();
             var phone = $("input#phone").val();
-            var company = $("textarea#company").val();
+            var company = $("input#company").val();
             var firstName = name; // For Success/Failure Message
             alert(name)
             // Check for white space in name for Success/Fail message
