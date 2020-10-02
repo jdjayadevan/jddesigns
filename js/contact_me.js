@@ -1,4 +1,4 @@
-$('#contactForm').focus(function() {
+$('#contactForm').click(function() {
     var name = $("input#name").val();
           
     var email = $("input#email").val();
