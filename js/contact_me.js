@@ -1,4 +1,4 @@
-$('#contactForm').click(function() {
+$('#send').click(function() {
     var name = $("input#name").val();
           
     var email = $("input#email").val();
